@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<Html>
+<Head>
+    <title>Salah satu contoh DOM</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</Head>
+<body>
+    
+    <p id="myParagraph">contoh kondisi DOM mengganti warna kata dan merubah warna background</p>
+    <button onclick="changeText('myParagraph', 'Saya suka bermain game')">Change Text</button>
+    <button onclick="changeColor()">Ubah Warna</button>
+
+    <script src="Dom.js"></script>
+</body>
+</Html>
